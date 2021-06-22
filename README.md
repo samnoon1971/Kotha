@@ -1,2 +1,2 @@
 # Quotes
-Node.js, Express.js, PosgreSQL
+using Node.js, Express.js, PosgreSQL
