@@ -1,12 +1,12 @@
 CREATE TABLE quote (
     id serial primary key ,
-    quote character varying(255) not null unique ,
-    author character varying(255) not null ,
+    kotha character varying(255) not null unique ,
+    lekhok character varying(255) not null ,
     created_at timestamp with time zone default current_timestamp not null ,
     updated_at timestamp with time zone default current_timestamp not null
 );
 
-insert into quote (id, quote, author) values
+insert into quote (id, kotha, lekhok) values
 (1, 'There are only two kinds of languages: the ones people complain about and the ones nobody uses.', 'Bjarne Stroustrup'),
 (2, 'Any fool can write code that a computer can understand. Good programmers write code that humans can understand.', 'Martin Fowler'),
 (3, 'First, solve the problem. Then, write the code.', 'John Johnson'),
